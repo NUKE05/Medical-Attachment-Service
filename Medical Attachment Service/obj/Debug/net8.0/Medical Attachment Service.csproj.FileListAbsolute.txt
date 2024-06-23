@@ -1,0 +1,32 @@
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\appsettings.json
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Medical Attachment Service.exe
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Medical Attachment Service.deps.json
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Medical Attachment Service.runtimeconfig.json
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Medical Attachment Service.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Medical Attachment Service.pdb
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.csproj.AssemblyReference.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.AssemblyInfoInputs.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.AssemblyInfo.cs
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\staticwebassets\msbuild.Medical Attachment Service.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\staticwebassets\msbuild.build.Medical Attachment Service.props
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Medical Attachment Service.props
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Medical Attachment Service.props
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\scopedcss\bundle\Medical Attachment Service.styles.css
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical .0E781C75.Up2Date
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\refint\Medical Attachment Service.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.pdb
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\Medical Attachment Service.genruntimeconfig.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\Medical Attachment Service\obj\Debug\net8.0\ref\Medical Attachment Service.dll

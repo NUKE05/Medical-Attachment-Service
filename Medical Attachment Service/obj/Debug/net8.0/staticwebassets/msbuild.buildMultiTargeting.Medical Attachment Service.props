@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Medical Attachment Service.props" />
+</Project>
