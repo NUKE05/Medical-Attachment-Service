@@ -12,15 +12,13 @@ namespace MedicalAttach.Core.Models
                        string lastName,
                        string firstName,
                        string middleName,
-                       string iin,
-                       Guid medicalOrganizationId)
+                       string iin)
         {
             Id = id;
             LastName = lastName;
             FirstName = firstName;
             MiddleName = middleName;
             IIN = iin;
-            MedicalOrganizationId = medicalOrganizationId;
         }
 
         public Guid Id { get; }
@@ -28,8 +26,6 @@ namespace MedicalAttach.Core.Models
         public string FirstName { get; } = string.Empty;
         public string MiddleName { get; } = string.Empty;
         public string IIN { get; } = string.Empty;
-        public Guid MedicalOrganizationId { get; }
-        public MedicalOrganization MedicalOrganization { get; set; }
-        public ICollection<AttachmentRequest> AttachmentRequests { get; set; }
     }
+
 }

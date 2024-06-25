@@ -1,0 +1,16 @@
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\bin\Debug\net8.0\MedicalAttachment.Application.deps.json
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\bin\Debug\net8.0\MedicalAttachment.Application.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\bin\Debug\net8.0\MedicalAttachment.Application.pdb
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\bin\Debug\net8.0\MedicalAttach.Core.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\bin\Debug\net8.0\MedicalAttach.Core.pdb
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.csproj.AssemblyReference.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.AssemblyInfoInputs.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.AssemblyInfo.cs
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.sourcelink.json
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalA.197693B0.Up2Date
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\refint\MedicalAttachment.Application.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\MedicalAttachment.Application.pdb
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttachment.Application\obj\Debug\net8.0\ref\MedicalAttachment.Application.dll

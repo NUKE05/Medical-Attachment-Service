@@ -1,4 +1,6 @@
 ﻿using MedicalAttach.Core.Models;
+using MedicalAttach.DataAccess.Configurations;
+using MedicalAttach.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
@@ -11,57 +13,19 @@ namespace MedicalAttach.DataAccess
         {
         }
 
-        public DbSet<Patient> Patients { get; set; }
-        public DbSet<MedicalOrganization> MedicalOrganizations { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<AttachmentRequest> AttachmentRequests { get; set; }
+        public DbSet<PatientEntity> Patients { get; set; }
+        public DbSet<MedicalOrganizationEntity> MedicalOrganizations { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<AttachmentRequestEntity> AttachmentRequests { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Patient>(entity =>
-            {
-                entity.HasKey(e => e.Id);
-                entity.Property(e => e.LastName).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.FirstName).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.MiddleName).HasMaxLength(100);
-                entity.Property(e => e.IIN).IsRequired().HasMaxLength(12);
-                entity.HasOne(e => e.MedicalOrganization)
-                      .WithMany(m => m.Patients)
-                      .HasForeignKey(e => e.MedicalOrganizationId)
-                      .OnDelete(DeleteBehavior.Restrict);
-            });
-
-            modelBuilder.Entity<MedicalOrganization>(entity =>
-            {
-                entity.HasKey(e => e.Id);
-                entity.Property(e => e.Name).IsRequired().HasMaxLength(250);
-            });
-
-            modelBuilder.Entity<User>(entity =>
-            {
-                entity.HasKey(e => e.Id);
-                entity.Property(e => e.Login).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.Password).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.IsAdmin).IsRequired();
-                entity.HasOne(e => e.MedicalOrganization)
-                      .WithMany(m => m.Users)
-                      .HasForeignKey(e => e.MedicalOrganizationId)
-                      .OnDelete(DeleteBehavior.Restrict);
-            });
-
-            modelBuilder.Entity<AttachmentRequest>(entity =>
-            {
-                entity.HasKey(e => e.Id);
-                entity.Property(e => e.CreationDate).IsRequired();
-                entity.Property(e => e.ProcessingDate).IsRequired();
-                entity.Property(e => e.Status).IsRequired().HasMaxLength(50);
-                entity.HasOne(e => e.Patient)
-                      .WithMany(p => p.AttachmentRequests)
-                      .HasForeignKey(e => e.PatientId)
-                      .OnDelete(DeleteBehavior.Restrict);
-            });
+            modelBuilder.ApplyConfiguration(new PatientConfiguration());
+            modelBuilder.ApplyConfiguration(new MedicalOrganizationConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new AttachmentRequestConfiguration());
         }
     }
 }

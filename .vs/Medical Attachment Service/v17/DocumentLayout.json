@@ -3,44 +3,131 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\models\\medicalorganization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\models\\medicalorganization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\repository\\patientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\repository\\patientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\entities\\patiententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\entities\\patiententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\entities\\medicalorganizationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\entities\\medicalorganizationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\configurations\\patientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\configurations\\patientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\medicalattachdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\medicalattachdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\repository\\patientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\repository\\patientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medical attachment service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|solutionrelative:medical attachment service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medical attachment service\\contracts\\patientresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|solutionrelative:medical attachment service\\contracts\\patientresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\medicalattach.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\medicalattach.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medical attachment service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|solutionrelative:medical attachment service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\repository\\attachmentrequstsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\repository\\attachmentrequstsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\abstractions\\iattachmentrequestsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\abstractions\\iattachmentrequestsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\configurations\\attachmentrequestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\configurations\\attachmentrequestconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\repository\\medicalorganizationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\repository\\medicalorganizationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\configurations\\medicalorganizationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\configurations\\medicalorganizationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\models\\medicalorganization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\models\\medicalorganization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medical attachment service\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|solutionrelative:medical attachment service\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medical attachment service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|solutionrelative:medical attachment service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\abstractions\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\abstractions\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\abstractions\\ipatientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\abstractions\\ipatientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B43814-D12A-45F5-935F-8F8A97047F0A}|MedicalAttachment.Application\\MedicalAttachment.Application.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattachment.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B43814-D12A-45F5-935F-8F8A97047F0A}|MedicalAttachment.Application\\MedicalAttachment.Application.csproj|solutionrelative:medicalattachment.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\abstractions\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\abstractions\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\entities\\attachmentrequestentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\entities\\attachmentrequestentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\entities\\patiententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\entities\\patiententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\entities\\medicalorganizationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\entities\\medicalorganizationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\models\\attachmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\models\\attachmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.core\\abstractions\\imedicalorganizationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB5015F7-0D0D-4DE1-9E68-48E10230CA11}|MedicalAttach.Core\\MedicalAttach.Core.csproj|solutionrelative:medicalattach.core\\abstractions\\imedicalorganizationsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medical attachment service\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D294B25A-E090-4997-A0E9-827FF20FD10C}|Medical Attachment Service\\Medical Attachment Service.csproj|solutionrelative:medical attachment service\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\medical attachment service\\medicalattach.dataaccess\\medicalattach.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}|MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj|solutionrelative:medicalattach.dataaccess\\medicalattach.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,137 +137,392 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAFkJAAAAAAAAAAAWwGAJAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-24T11:22:45.725Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PatientsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
-              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
-              "RelativeToolTip": "MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCkAAABuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:34:46.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PatientEntity.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
-              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
-              "RelativeToolTip": "MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:22:12.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\UserEntity.cs",
               "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Entities\\UserEntity.cs",
               "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\UserEntity.cs",
               "RelativeToolTip": "MedicalAttach.DataAccess\\Entities\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:13:06.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T22:13:06.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MedicalOrganizationEntity.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
-              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
-              "RelativeToolTip": "MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:15:34.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "MedicalAttach.Core\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\Patient.cs",
-              "RelativeToolTip": "MedicalAttach.Core\\Models\\Patient.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAwCEAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:50:09.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MedicalattachDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
-              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
-              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
-              "RelativeToolTip": "MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAswA4AAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:56:14.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\User.cs",
               "RelativeDocumentMoniker": "MedicalAttach.Core\\Models\\User.cs",
               "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\User.cs",
               "RelativeToolTip": "MedicalAttach.Core\\Models\\User.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T21:36:01.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Repository\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\UsersRepository.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Repository\\UsersRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAIAwwCgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:39:57.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PatientsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Repository\\PatientsRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAtwCMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:38:24.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedicalattachDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\MedicalattachDbContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T21:56:14.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\PatientConfiguration.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Configurations\\PatientConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\PatientConfiguration.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Configurations\\PatientConfiguration.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwB4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:55:24.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\appsettings.json",
+              "RelativeDocumentMoniker": "Medical Attachment Service\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\appsettings.json",
+              "RelativeToolTip": "Medical Attachment Service\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-24T11:09:09.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MedicalAttach.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\MedicalAttach.Core.csproj",
+              "RelativeDocumentMoniker": "MedicalAttach.Core\\MedicalAttach.Core.csproj",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\MedicalAttach.Core.csproj",
+              "RelativeToolTip": "MedicalAttach.Core\\MedicalAttach.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-24T10:57:18.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AttachmentRequstsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\AttachmentRequstsRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Repository\\AttachmentRequstsRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\AttachmentRequstsRepository.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Repository\\AttachmentRequstsRepository.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:47:51.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientResponce.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\Contracts\\PatientResponce.cs",
+              "RelativeDocumentMoniker": "Medical Attachment Service\\Contracts\\PatientResponce.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\Contracts\\PatientResponce.cs",
+              "RelativeToolTip": "Medical Attachment Service\\Contracts\\PatientResponce.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:28:17.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MedicalOrganizationsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\MedicalOrganizationsRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Repository\\MedicalOrganizationsRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Repository\\MedicalOrganizationsRepository.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Repository\\MedicalOrganizationsRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:43:17.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AttachmentRequestConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\AttachmentRequestConfiguration.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Configurations\\AttachmentRequestConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\AttachmentRequestConfiguration.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Configurations\\AttachmentRequestConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:07:26.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAttachmentRequestsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IAttachmentRequestsRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.Core\\Abstractions\\IAttachmentRequestsRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IAttachmentRequestsRepository.cs",
+              "RelativeToolTip": "MedicalAttach.Core\\Abstractions\\IAttachmentRequestsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:50:18.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\Program.cs",
+              "RelativeDocumentMoniker": "Medical Attachment Service\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\Program.cs",
+              "RelativeToolTip": "Medical Attachment Service\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAABoAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:08:48.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedicalOrganizationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\MedicalOrganizationConfiguration.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Configurations\\MedicalOrganizationConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\MedicalOrganizationConfiguration.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Configurations\\MedicalOrganizationConfiguration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:06:53.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "MedicalOrganization.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\MedicalOrganization.cs",
               "RelativeDocumentMoniker": "MedicalAttach.Core\\Models\\MedicalOrganization.cs",
               "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\MedicalOrganization.cs",
               "RelativeToolTip": "MedicalAttach.Core\\Models\\MedicalOrganization.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBgAAABJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:47:57.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T21:47:57.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttachment.Application\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "MedicalAttachment.Application\\Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttachment.Application\\Services\\PatientService.cs",
+              "RelativeToolTip": "MedicalAttachment.Application\\Services\\PatientService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:50:59.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.Core\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\Patient.cs",
+              "RelativeToolTip": "MedicalAttach.Core\\Models\\Patient.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T21:50:09.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IPatientsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IPatientsRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.Core\\Abstractions\\IPatientsRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IPatientsRepository.cs",
+              "RelativeToolTip": "MedicalAttach.Core\\Abstractions\\IPatientsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:39:35.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IPatientService.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.Core\\Abstractions\\IPatientService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IPatientService.cs",
+              "RelativeToolTip": "MedicalAttach.Core\\Abstractions\\IPatientService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:52:28.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Medical Attachment Service\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Medical Attachment Service\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA0wB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:23:43.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Medical Attachment Service\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\appsettings.Development.json",
+              "RelativeToolTip": "Medical Attachment Service\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-24T06:14:00.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.Core\\Abstractions\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IUsersRepository.cs",
+              "RelativeToolTip": "MedicalAttach.Core\\Abstractions\\IUsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:42:39.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwCIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T06:05:44.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PatientEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Entities\\PatientEntity.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T22:22:12.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MedicalOrganizationEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\Entities\\MedicalOrganizationEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T22:15:34.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "AttachmentRequestEntity.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\AttachmentRequestEntity.cs",
               "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\Entities\\AttachmentRequestEntity.cs",
               "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\Entities\\AttachmentRequestEntity.cs",
               "RelativeToolTip": "MedicalAttach.DataAccess\\Entities\\AttachmentRequestEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:26:40.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T22:26:40.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "AttachmentRequest.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\AttachmentRequest.cs",
               "RelativeDocumentMoniker": "MedicalAttach.Core\\Models\\AttachmentRequest.cs",
               "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Models\\AttachmentRequest.cs",
               "RelativeToolTip": "MedicalAttach.Core\\Models\\AttachmentRequest.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAA0AAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBcAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T21:49:28.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T21:49:28.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\docker-compose.yml",
+              "RelativeDocumentMoniker": "Medical Attachment Service\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\Medical Attachment Service\\docker-compose.yml",
+              "RelativeToolTip": "Medical Attachment Service\\docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-24T06:16:34.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IMedicalOrganizationsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IMedicalOrganizationsRepository.cs",
+              "RelativeDocumentMoniker": "MedicalAttach.Core\\Abstractions\\IMedicalOrganizationsRepository.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.Core\\Abstractions\\IMedicalOrganizationsRepository.cs",
+              "RelativeToolTip": "MedicalAttach.Core\\Abstractions\\IMedicalOrganizationsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:50:29.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MedicalAttach.DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj",
+              "RelativeDocumentMoniker": "MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\Medical Attachment Service\\MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj",
+              "RelativeToolTip": "MedicalAttach.DataAccess\\MedicalAttach.DataAccess.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-24T04:37:46.027Z"
             }
           ]
         }

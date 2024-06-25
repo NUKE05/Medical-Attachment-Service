@@ -1,0 +1,13 @@
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\bin\Debug\net8.0\MedicalAttach.Core.deps.json
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\bin\Debug\net8.0\MedicalAttach.Core.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\bin\Debug\net8.0\MedicalAttach.Core.pdb
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.AssemblyInfoInputs.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.AssemblyInfo.cs
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.sourcelink.json
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\refint\MedicalAttach.Core.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.pdb
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\ref\MedicalAttach.Core.dll
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.csproj.AssemblyReference.cache

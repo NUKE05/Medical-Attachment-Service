@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MedicalAttachment.Application/1.0.0": {
+        "dependencies": {
+          "MedicalAttach.Core": "1.0.0"
+        },
+        "runtime": {
+          "MedicalAttachment.Application.dll": {}
+        }
+      },
+      "MedicalAttach.Core/1.0.0": {
+        "runtime": {
+          "MedicalAttach.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MedicalAttachment.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MedicalAttach.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

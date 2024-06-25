@@ -10,64 +10,93 @@ using static MedicalAttach.DataAccess.Repository.PatientsRepository;
 
 namespace MedicalAttach.DataAccess.Repository
 {
-    public class PatientsRepository
+    public class PatientsRepository : IPatientsRepository 
     {
-        public class PatientRepository : IPatientRepository
+        private readonly MedicalAttachDbContext _context;
+
+        public PatientsRepository(MedicalAttachDbContext context)
         {
-            private readonly MedicalAttachDbContext _context;
+            _context = context;
+        }
 
-            public PatientRepository(MedicalAttachDbContext context)
+        public async Task<List<Patient>> GetPatients()
+        {
+            var patientEntities = await _context.Patients.AsNoTracking().ToListAsync();
+
+            var patients = patientEntities
+                .Select(p => new Patient(p.Id, p.LastName, p.FirstName, p.MiddleName, p.IIN))
+                .ToList();
+
+            return patients;
+        }
+
+        public async Task<Patient> GetPatientById(Guid id)
+        {
+            var patientEntity = await _context.Patients.FindAsync(id);
+            if (patientEntity == null) return null;
+            return new Patient(patientEntity.Id, patientEntity.LastName, patientEntity.FirstName, patientEntity.MiddleName, patientEntity.IIN);
+        }
+
+        public async Task<Guid> Create(Patient patient)
+        {
+            var patientEntity = new PatientEntity
             {
-                _context = context;
-            }
+                Id = patient.Id,
+                LastName = patient.LastName,
+                FirstName = patient.FirstName,
+                MiddleName = patient.MiddleName,
+                IIN = patient.IIN
+            };
 
-            public async Task<List<Patient>> GetPatients()
-            {
-                var patientEntities = await _context.Patients.AsNoTracking().ToListAsync();
+            await _context.Patients.AddAsync(patientEntity);
+            await _context.SaveChangesAsync();
 
-                var patients = patientEntities
-                    .Select(p => new Patient(p.Id, p.LastName, p.FirstName, p.MiddleName, p.IIN, p.MedicalOrganizationId)
-                    {
-                        MedicalOrganization = p.MedicalOrganization,
-                        AttachmentRequests = p.AttachmentRequests
-                    }).ToList();
+            return patientEntity.Id;
+        }
 
-                return patients;
-            }
+        public async Task<Guid> Update(Guid id, string lastName, string firstName, string middleName, string iin)
+        {
+            await _context.Patients
+                .Where(p => p.Id == id)
+                .ExecuteUpdateAsync(s => s
+                    .SetProperty(p => p.LastName, lastName)
+                    .SetProperty(p => p.FirstName, firstName)
+                    .SetProperty(p => p.MiddleName, middleName)
+                    .SetProperty(p => p.IIN, iin)
+                );
 
-            public async Task<Guid> Create(Patient patient)
-            {
-                var patientEntity = new PatientEntity(patient.Id, patient.LastName, patient.FirstName, patient.MiddleName, patient.IIN, patient.MedicalOrganizationId);
+            return id;
+        }
 
-                await _context.Patients.AddAsync(patientEntity); // Ошибка преобразования из сущности в модель
-                await _context.SaveChangesAsync();
+        public async Task<Guid> Delete(Guid id)
+        {
+            await _context.Patients
+                .Where(p => p.Id == id)
+                .ExecuteDeleteAsync();
 
-                return patientEntity.Id;
-            }
+            return id;
+        }
 
-            public async Task<Guid> Update(Guid id, string lastName, string firstName, string middleName, string iin, Guid medicalOrganizationId)
-            {
-                await _context.Patients
-                    .Where(p => p.Id == id)
-                    .ExecuteUpdateAsync(s => s
-                        .SetProperty(p => p.LastName, lastName)
-                        .SetProperty(p => p.FirstName, firstName)
-                        .SetProperty(p => p.MiddleName, middleName)
-                        .SetProperty(p => p.IIN, iin)
-                        .SetProperty(p => p.MedicalOrganizationId, medicalOrganizationId)
-                    );
+        public async Task<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin)
+        {
+            var query = _context.Patients.AsQueryable();
 
-                return id;
-            }
+            if (!string.IsNullOrEmpty(lastName))
+                query = query.Where(p => p.LastName.Contains(lastName, StringComparison.OrdinalIgnoreCase));
+            if (!string.IsNullOrEmpty(firstName))
+                query = query.Where(p => p.FirstName.Contains(firstName, StringComparison.OrdinalIgnoreCase));
+            if (!string.IsNullOrEmpty(middleName))
+                query = query.Where(p => p.MiddleName.Contains(middleName, StringComparison.OrdinalIgnoreCase));
+            if (!string.IsNullOrEmpty(iin))
+                query = query.Where(p => p.IIN.Contains(iin, StringComparison.OrdinalIgnoreCase));
 
-            public async Task<Guid> Delete(Guid id)
-            {
-                await _context.Patients
-                    .Where(p => p.Id == id)
-                    .ExecuteDeleteAsync();
+            var patientEntities = await query.AsNoTracking().ToListAsync();
+            return patientEntities.Select(p => new Patient(p.Id, p.LastName, p.FirstName, p.MiddleName, p.IIN)).ToList();
+        }
 
-                return id;
-            }
+        Task IPatientsRepository.Delete(Guid id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
