@@ -24,7 +24,7 @@ namespace MedicalAttach.DataAccess.Repository
             var attachmentRequestEntities = await _context.AttachmentRequests.AsNoTracking().ToListAsync();
 
             var attachmentRequests = attachmentRequestEntities
-                .Select(ar => new AttachmentRequest(ar.Id, ar.CreationDate, ar.ProcessingDate, ar.Patient, ar.Status))
+                .Select(ar => new AttachmentRequest(ar.Id, ar.CreationDate, ar.ProcessingDate, ar.PatientId, ar.Status))
                 .ToList();
 
             return attachmentRequests;
@@ -38,7 +38,7 @@ namespace MedicalAttach.DataAccess.Repository
                 CreationDate = attachmentRequest.CreationDate,
                 ProcessingDate = attachmentRequest.ProcessingDate,
                 Status = attachmentRequest.Status,
-                Patient = attachmentRequest.Patient
+                PatientId = attachmentRequest.PatientId
             };
 
             await _context.AttachmentRequests.AddAsync(attachmentRequestEntity);
@@ -47,7 +47,7 @@ namespace MedicalAttach.DataAccess.Repository
             return attachmentRequestEntity.Id;
         }
 
-        public async Task<Guid> Update(Guid id, DateTime creationDate, DateTime processingDate, string status, Patient patient)
+        public async Task<Guid> Update(Guid id, DateTime creationDate, DateTime processingDate, Guid patientId,string status)
         {
             await _context.AttachmentRequests
                 .Where(ar => ar.Id == id)
@@ -55,7 +55,7 @@ namespace MedicalAttach.DataAccess.Repository
                     .SetProperty(ar => ar.CreationDate, creationDate)
                     .SetProperty(ar => ar.ProcessingDate, processingDate)
                     .SetProperty(ar => ar.Status, status)
-                    .SetProperty(ar => ar.Patient, patient)
+                    .SetProperty(ar => ar.PatientId, patientId)
                 );
 
             return id;

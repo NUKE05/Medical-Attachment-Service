@@ -37,34 +37,35 @@ namespace MedicalAttachment.Application.Services
             return await (_patientRepository.Update(id, lastName, firstName, middleName, iin));
         }
 
-        public void DeletePatient(Guid id) { 
-            _patientRepository.Delete(id);
+        public async Task DeletePatient(Guid id) { 
+            await _patientRepository.Delete(id);
         }
 
-        public async Task<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin)
+
+        /*public async Task<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin)
         {
             var patients = await _patientRepository.SearchPatients(lastName, firstName, middleName, iin);
             var attachmentRequests = await _attachmentRequestRepository.GetAttachmentRequests();
 
             return patients.Where(p =>
-                    !attachmentRequests.Any(ar => ar.Patient.Id == p.Id)
-                ).ToList();
-
-            // Change code here, so it can seach patients by their names using crud operations
-
-            // The structure where the project doesn't implement own CRUD operations
-            /*return patients.Where(p =>
-                    (string.IsNullOrEmpty(lastName) || p.LastName.Contains(lastName, StringComparison.OrdinalIgnoreCase)) &&
-                    (string.IsNullOrEmpty(firstName) || p.FirstName.Contains(firstName, StringComparison.OrdinalIgnoreCase)) &&
-                    (string.IsNullOrEmpty(middleName) || p.MiddleName.Contains(middleName, StringComparison.OrdinalIgnoreCase)) &&
-                    (string.IsNullOrEmpty(iin) || p.IIN.Contains(iin, StringComparison.OrdinalIgnoreCase)) 
+                    !attachmentRequests.Any(ar => ar.PatientId == p.Id)
                 ).ToList();*/
-        }
 
-        Task IPatientService.DeletePatient(Guid id)
+        // Change code here, so it can seach patients by their names using crud operations
+
+        // The structure where the project doesn't implement own CRUD operations
+        /*return patients.Where(p =>
+                (string.IsNullOrEmpty(lastName) || p.LastName.Contains(lastName, StringComparison.OrdinalIgnoreCase)) &&
+                (string.IsNullOrEmpty(firstName) || p.FirstName.Contains(firstName, StringComparison.OrdinalIgnoreCase)) &&
+                (string.IsNullOrEmpty(middleName) || p.MiddleName.Contains(middleName, StringComparison.OrdinalIgnoreCase)) &&
+                (string.IsNullOrEmpty(iin) || p.IIN.Contains(iin, StringComparison.OrdinalIgnoreCase)) 
+            ).ToList();*/
+    }
+
+        /*Task IPatientService.DeletePatient(Guid id)
         {
             throw new NotImplementedException();
-        }
+        }*/
 
         /*public async Task CreateAttachmentRequest(Guid patientId, Guid organizationId, Guid userId)
         {
@@ -107,5 +108,4 @@ namespace MedicalAttachment.Application.Services
             }
             return patients;
         }*/
-    }
 }

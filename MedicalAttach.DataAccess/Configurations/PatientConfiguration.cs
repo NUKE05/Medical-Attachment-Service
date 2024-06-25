@@ -29,6 +29,9 @@ namespace MedicalAttach.DataAccess.Configurations
             builder.Property(p => p.IIN)
                 .HasMaxLength(12)
                 .IsRequired();
+
+            builder.HasIndex(p => p.IIN)
+                .IsUnique();
         }
     }
 }

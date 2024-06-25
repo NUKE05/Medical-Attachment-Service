@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MedicalAttach.Core.Models;
 
 namespace MedicalAttach.DataAccess.Configurations
 {
@@ -26,9 +27,9 @@ namespace MedicalAttach.DataAccess.Configurations
             builder.Property(u => u.IsAdmin)
                 .IsRequired();
 
-            builder.HasOne(u => u.MedicalOrganization)
+            builder.HasOne<MedicalOrganization>()
                 .WithMany()
-                .HasForeignKey(u => u.MedicalOrganization)
+                .HasForeignKey(u => u.MedicalOrganizationID)
                 .OnDelete(DeleteBehavior.Restrict);
         }
     }

@@ -12,7 +12,7 @@ namespace MedicalAttach.DataAccess.Entities
         public Guid Id { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime ProcessingDate { get; set; }
-        public required Patient Patient { get; set; }
+        public required Guid PatientId { get; set; }
         public string Status { get; set; } = string.Empty;
     }
 }

@@ -24,7 +24,7 @@ namespace MedicalAttach.DataAccess.Repository
             var userEntities = await _context.Users.AsNoTracking().ToListAsync();
 
             var users = userEntities
-                .Select(u => new User(u.Id, u.Login, u.Password, u.IsAdmin, u.MedicalOrganization))
+                .Select(u => new User(u.Id, u.Login, u.Password, u.IsAdmin, u.MedicalOrganizationID))
                 .ToList();
 
             return users;
@@ -38,7 +38,7 @@ namespace MedicalAttach.DataAccess.Repository
                 Login = user.Login,
                 Password = user.Password,
                 IsAdmin = user.IsAdmin,
-                MedicalOrganization = user.MedicalOrganization
+                MedicalOrganizationID = user.MedicalOrganizationId
             };
 
             await _context.Users.AddAsync(userEntity);
@@ -47,7 +47,7 @@ namespace MedicalAttach.DataAccess.Repository
             return userEntity.Id;
         }
 
-        public async Task<Guid> Update(Guid id, string login, string password, bool isAdmin, MedicalOrganization medicalOrganization)
+        public async Task<Guid> Update(Guid id, string login, string password, bool isAdmin, Guid medicalOrganizationId)
         {
             await _context.Users
                 .Where(u => u.Id == id)
@@ -55,7 +55,7 @@ namespace MedicalAttach.DataAccess.Repository
                     .SetProperty(u => u.Login, login)
                     .SetProperty(u => u.Password, password)
                     .SetProperty(u => u.IsAdmin, isAdmin)
-                    .SetProperty(u => u.MedicalOrganization, medicalOrganization)
+                    .SetProperty(u => u.MedicalOrganizationID, medicalOrganizationId)
                 );
 
             return id;
@@ -68,11 +68,6 @@ namespace MedicalAttach.DataAccess.Repository
                 .ExecuteDeleteAsync();
 
             return id;
-        }
-
-        public Task<Guid> Update(Guid id, string login, string password, bool isAdmin, Guid medicalOrganizationId)
-        {
-            throw new NotImplementedException();
         }
     }
 }

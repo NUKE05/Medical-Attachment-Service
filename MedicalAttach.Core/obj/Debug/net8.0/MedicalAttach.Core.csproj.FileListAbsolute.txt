@@ -11,3 +11,5 @@ C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\o
 C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.pdb
 C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\ref\MedicalAttach.Core.dll
 C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.csproj.AssemblyReference.cache
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\bin\Debug\net8.0\MedicalAttach.Core.runtimeconfig.json
+C:\Users\Админ\source\repos\Medical Attachment Service\MedicalAttach.Core\obj\Debug\net8.0\MedicalAttach.Core.genruntimeconfig.cache

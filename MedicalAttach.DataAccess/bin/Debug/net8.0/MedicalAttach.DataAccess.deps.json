@@ -568,6 +568,11 @@
       },
       "System.Threading.Channels/6.0.0": {},
       "MedicalAttach.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
+          "System.Diagnostics.Tools": "4.3.0"
+        },
         "runtime": {
           "MedicalAttach.Core.dll": {}
         }

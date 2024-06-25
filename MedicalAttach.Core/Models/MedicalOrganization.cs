@@ -8,14 +8,16 @@ namespace MedicalAttach.Core.Models
 {
     public class MedicalOrganization
     {
-        public MedicalOrganization(Guid id,
-                                   string name)
+        public MedicalOrganization() { }
+
+        // Constructor with parameters
+        public MedicalOrganization(Guid id, string name)
         {
             Id = id;
             Name = name;
         }
 
-        public Guid Id { get; }
-        public string Name { get; } = string.Empty;
+        public Guid Id { get; set; }
+        public string Name { get; set; } = null!;
     }
 }

@@ -6,7 +6,7 @@ namespace MedicalAttach.DataAccess.Repository
     {
         Task<List<AttachmentRequest>> GetAttachmentRequests();
         Task<Guid> Create(AttachmentRequest attachmentRequest);
-        Task<Guid> Update(Guid id, DateTime creationDate, DateTime processingDate, string status, Patient patient);
+        Task<Guid> Update(Guid id, DateTime creationDate, DateTime processingDate, Guid patientId, string status);
         Task<Guid> Delete(Guid id);
     }
 }
