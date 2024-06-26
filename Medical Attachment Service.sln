@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAttach.Core", "Medic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAttach.DataAccess", "MedicalAttach.DataAccess\MedicalAttach.DataAccess.csproj", "{23DF6FB8-FC3B-424D-A1FF-BD1B1877E826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAttachment.Application", "MedicalAttachment.Application\MedicalAttachment.Application.csproj", "{54B43814-D12A-45F5-935F-8F8A97047F0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalAttachment.Application", "MedicalAttachment.Application\MedicalAttachment.Application.csproj", "{54B43814-D12A-45F5-935F-8F8A97047F0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

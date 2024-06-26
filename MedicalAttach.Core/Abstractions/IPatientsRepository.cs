@@ -8,7 +8,7 @@ namespace MedicalAttach.DataAccess.Repository
         Task<Patient> GetPatientById(Guid id);
         Task<Guid> Create(Patient patient);
         Task<Guid> Update(Guid id, string lastName, string firstName, string middleName, string iin);
-        Task Delete(Guid id);
-        Task<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin);
+        Task<Guid> Delete(Guid id);
+        /*Task<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin);*/
     }
 }

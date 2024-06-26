@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TE590eyRpmE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Админ\\source\\repos\\Medical Attachment Service\\MedicalAttach.Tests\\MedicalAttach.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Админ\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

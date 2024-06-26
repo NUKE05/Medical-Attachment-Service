@@ -17,6 +17,7 @@ namespace MedicalAttach.DataAccess.Configurations
             builder.Property(e => e.Name)
                 .IsRequired()
                 .HasMaxLength(250);
+            builder.HasIndex(e => e.Name);
         }
     }
 }

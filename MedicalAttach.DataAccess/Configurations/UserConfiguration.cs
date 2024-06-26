@@ -31,6 +31,9 @@ namespace MedicalAttach.DataAccess.Configurations
                 .WithMany()
                 .HasForeignKey(u => u.MedicalOrganizationID)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasIndex(u => u.Login)
+                .IsUnique();
         }
     }
 }

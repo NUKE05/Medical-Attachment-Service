@@ -35,6 +35,12 @@ namespace Medical_Attachment_Service.Controllers
                 request.MiddleName,
                 request.Iin);
 
+            var existingpatients = await _patientService.GetAllPatients();
+
+            if (existingpatients.Any(p => p.IIN == request.Iin))
+            {
+                return BadRequest("The user with this IIN is already in database");
+            }
             if (!string.IsNullOrEmpty(error))
             {
                 return BadRequest(error);
@@ -43,6 +49,20 @@ namespace Medical_Attachment_Service.Controllers
             var patientId = await _patientService.CreatePatient(patient);
 
             return Ok(patientId);
+        }
+
+        [HttpPut("{id:guid}")]
+        public async Task<ActionResult<Guid>> UpdatePatients(Guid id,  [FromBody] PatientRequest request)
+        {
+            var patientId = await _patientService.UpdatePatient(id, request.LastName, request.FirstName, request.MiddleName, request.Iin);
+
+            return Ok(patientId);
+        }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<ActionResult<Guid>> DeletePatient(Guid id)
+        {
+            return Ok(await _patientService.DeletePatient(id));
         }
     }
 }

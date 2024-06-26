@@ -37,8 +37,8 @@ namespace MedicalAttachment.Application.Services
             return await (_patientRepository.Update(id, lastName, firstName, middleName, iin));
         }
 
-        public async Task DeletePatient(Guid id) { 
-            await _patientRepository.Delete(id);
+        public async Task<Guid> DeletePatient(Guid id) { 
+            return await _patientRepository.Delete(id);
         }
 
 

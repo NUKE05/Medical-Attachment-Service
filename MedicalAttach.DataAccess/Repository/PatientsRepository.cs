@@ -77,7 +77,7 @@ namespace MedicalAttach.DataAccess.Repository
             return id;
         }
 
-        public async Task<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin)
+        /*public async Task<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin)
         {
             var query = _context.Patients.AsQueryable();
 
@@ -92,11 +92,11 @@ namespace MedicalAttach.DataAccess.Repository
 
             var patientEntities = await query.AsNoTracking().ToListAsync();
             return patientEntities.Select(p => new Patient(p.Id, p.LastName, p.FirstName, p.MiddleName, p.IIN)).ToList();
-        }
+        }*/
 
-        Task IPatientsRepository.Delete(Guid id)
+        /*Task IPatientsRepository.Delete(Guid id)
         {
             throw new NotImplementedException();
-        }
+        }*/
     }
 }

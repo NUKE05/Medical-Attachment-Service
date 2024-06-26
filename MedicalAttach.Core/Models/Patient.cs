@@ -1,4 +1,7 @@
-﻿using System;
+﻿using MedicalAttach.DataAccess.Repository;
+using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -34,6 +37,12 @@ namespace MedicalAttach.Core.Models
         {
             var error = string.Empty;
 
+
+            if (lastName.Any(char.IsDigit) || firstName.Any(char.IsDigit) || middleName.Any(char.IsDigit))
+            {
+                error = "These fields doesn't have to contain digits";
+            }
+
             if ((string.IsNullOrEmpty(lastName)) || (string.IsNullOrEmpty(firstName)) || (string.IsNullOrEmpty(middleName)) || (string.IsNullOrEmpty(iin)))
             {
                 error = "All fields have to be filled";
@@ -43,7 +52,7 @@ namespace MedicalAttach.Core.Models
             {
                 error = "IIN has to contain only numbers from 0-9";
             }
-            
+
             if (iin.Length != 12)
             {
                 error = "IIN have to contatin exactly 12 digits";
