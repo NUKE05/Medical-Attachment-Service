@@ -1,12 +1,6 @@
 ﻿using MedicalAttach.DataAccess.Entities;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MedicalAttach.Core.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace MedicalAttach.DataAccess.Configurations
 {
@@ -27,9 +21,9 @@ namespace MedicalAttach.DataAccess.Configurations
             builder.Property(u => u.IsAdmin)
                 .IsRequired();
 
-            builder.HasOne<MedicalOrganization>()
-                .WithMany()
-                .HasForeignKey(u => u.MedicalOrganizationID)
+            builder.HasOne(mo => mo.MedicalOrganization)
+                .WithMany(u => u.Users)
+                .HasForeignKey(mo => mo.MedicalOrganizationID)
                 .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasIndex(u => u.Login)

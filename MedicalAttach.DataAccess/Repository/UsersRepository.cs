@@ -1,4 +1,5 @@
-﻿using MedicalAttach.Core.Models;
+﻿using MedicalAttach.Core.Abstractions;
+using MedicalAttach.Core.Models;
 using MedicalAttach.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -32,6 +33,19 @@ namespace MedicalAttach.DataAccess.Repository
 
         public async Task<Guid> Create(User user)
         {
+            if (!Guid.TryParse(user.MedicalOrganizationId.ToString(), out Guid medicalOrganizationID))
+            {
+                throw new Exception("Invalid MedicalOrganizationID format.");
+            }
+
+            var medicalOrganizationExists = await _context.MedicalOrganizations
+                .AnyAsync(mo => mo.Id == medicalOrganizationID);
+
+            if (!medicalOrganizationExists)
+            {
+                throw new Exception("Invalid MedicalOrganizationID.");
+            }
+
             var userEntity = new UserEntity
             {
                 Id = user.Id,

@@ -9,12 +9,13 @@ namespace MedicalAttach.Core.Models
     public class AttachmentRequest
     {
         public AttachmentRequest() { }
-        public AttachmentRequest(Guid id, DateTime creationDate, DateTime processingDate, Guid patientId, string status)
+        public AttachmentRequest(Guid id, DateTime creationDate, DateTime processingDate, Guid patientId, Guid medicalOrganizationId,string status)
         {
             Id = id;
             CreationDate = creationDate;
             ProcessingDate = processingDate;
             PatientId = patientId;
+            MedicalOrganizationId = medicalOrganizationId;
             Status = status;
         }
 
@@ -22,6 +23,7 @@ namespace MedicalAttach.Core.Models
         public DateTime CreationDate { get; }
         public DateTime ProcessingDate { get; }
         public Guid PatientId { get; }
+        public Guid MedicalOrganizationId { get; }
         public string Status { get; } = string.Empty;
     }
 }

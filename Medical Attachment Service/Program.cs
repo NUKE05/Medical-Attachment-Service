@@ -17,15 +17,21 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<MedicalAttachDbContext>(
-    options => {
-        options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(MedicalAttachDbContext)));
-    });
+    options => options.UseNpgsql(
+        builder.Configuration.GetConnectionString("MedicalAttachDbContext"),
+        b => b.MigrationsAssembly("MedicalAttach.DataAccess"))
+);
+
+// options.UseSqlServer(connection, b => b.MigrationsAssembly("Medical Attachment Service"))
 
 builder.Services.AddScoped<IPatientService, PatientService>();
+builder.Services.AddScoped<IMedicalOrganizationsService, MedicalOrganizationService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IAttachmentRequestService, AttachmentRequestService>();
+
 builder.Services.AddScoped<IAttachmentRequestsRepository, AttachmentRequestsRepository>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IMedicalOrganizationsRepository, MedicalOrganizationsRepository>();
-
 builder.Services.AddScoped<IPatientsRepository, PatientsRepository>();
 
 

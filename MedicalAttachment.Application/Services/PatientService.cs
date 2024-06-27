@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using MedicalAttach.Core.Abstractions;
 using MedicalAttach.Core.Models;
-using MedicalAttach.DataAccess.Repository;
 
 namespace MedicalAttachment.Application.Services
 {

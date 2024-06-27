@@ -39,7 +39,7 @@ namespace Medical_Attachment_Service.Controllers
 
             if (existingpatients.Any(p => p.IIN == request.Iin))
             {
-                return BadRequest("The user with this IIN is already in database");
+                return BadRequest("Пациент с данным ИИН уже существует");
             }
             if (!string.IsNullOrEmpty(error))
             {

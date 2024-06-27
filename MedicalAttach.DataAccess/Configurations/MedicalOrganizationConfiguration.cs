@@ -1,11 +1,6 @@
 ﻿using MedicalAttach.DataAccess.Entities;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace MedicalAttach.DataAccess.Configurations
 {
@@ -13,11 +8,21 @@ namespace MedicalAttach.DataAccess.Configurations
     {
         public void Configure(EntityTypeBuilder<MedicalOrganizationEntity> builder)
         {
-            builder.HasKey(e => e.Id);
-            builder.Property(e => e.Name)
-                .IsRequired()
-                .HasMaxLength(250);
-            builder.HasIndex(e => e.Name);
+            builder.HasKey(mo => mo.Id);
+
+            builder.Property(mo => mo.Name)
+                .HasMaxLength(200)
+                .IsRequired();
+
+            builder.HasMany(mo => mo.Users)
+                .WithOne(u => u.MedicalOrganization)
+                .HasForeignKey(u => u.MedicalOrganizationID)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasMany(mo => mo.AttachmentRequests)
+                .WithOne(ar => ar.MedicalOrganization)
+                .HasForeignKey(ar => ar.MedicalOrganizationId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

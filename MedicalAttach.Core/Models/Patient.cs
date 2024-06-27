@@ -1,5 +1,4 @@
-﻿using MedicalAttach.DataAccess.Repository;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal;
 using System;
 using System.Collections.Generic;
@@ -40,22 +39,22 @@ namespace MedicalAttach.Core.Models
 
             if (lastName.Any(char.IsDigit) || firstName.Any(char.IsDigit) || middleName.Any(char.IsDigit))
             {
-                error = "These fields doesn't have to contain digits";
+                error = "Поля с данными вашего имени не должны содержать цифры";
             }
 
             if ((string.IsNullOrEmpty(lastName)) || (string.IsNullOrEmpty(firstName)) || (string.IsNullOrEmpty(middleName)) || (string.IsNullOrEmpty(iin)))
             {
-                error = "All fields have to be filled";
+                error = "Все данные должны быть заполнены";
             }
 
             if (!decimal.TryParse(iin, out _))
             {
-                error = "IIN has to contain only numbers from 0-9";
+                error = "ИИН должен состоять только из цифр с 0-9";
             }
 
             if (iin.Length != 12)
             {
-                error = "IIN have to contatin exactly 12 digits";
+                error = "ИИН должен содержать ровно 12 символов";
             }
 
             var patient = new Patient(id, lastName, firstName, middleName, iin);

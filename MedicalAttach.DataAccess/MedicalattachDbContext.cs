@@ -2,8 +2,10 @@
 using MedicalAttach.DataAccess.Configurations;
 using MedicalAttach.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.SqlServer;
 using System.Collections.Generic;
 using System.Reflection.Emit;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace MedicalAttach.DataAccess
 {
@@ -12,7 +14,6 @@ namespace MedicalAttach.DataAccess
         public MedicalAttachDbContext(DbContextOptions<MedicalAttachDbContext> options) : base(options)
         {
         }
-
         public DbSet<PatientEntity> Patients { get; set; }
         public DbSet<MedicalOrganizationEntity> MedicalOrganizations { get; set; }
         public DbSet<UserEntity> Users { get; set; }

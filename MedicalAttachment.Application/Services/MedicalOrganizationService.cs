@@ -1,5 +1,5 @@
-﻿using MedicalAttach.Core.Models;
-using MedicalAttach.DataAccess.Repository;
+﻿using MedicalAttach.Core.Abstractions;
+using MedicalAttach.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +26,13 @@ namespace MedicalAttachment.Application.Services
         public async Task<Guid> CreateMedicalOrganization(MedicalOrganization medicalOrganization)
         {
             return await _medicalOrganizationRepository.Create(medicalOrganization);
+        }
+
+        public async Task<Boolean> GetMedicalOrganizationById(Guid id)
+        {
+            var containsId = _medicalOrganizationRepository.ContainsMedId(id);
+
+            return await containsId;
         }
 
         public async Task<Guid> UpdateMedicalOrganization(Guid id, string name)

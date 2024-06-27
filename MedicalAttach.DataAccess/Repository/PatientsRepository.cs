@@ -1,4 +1,5 @@
-﻿using MedicalAttach.Core.Models;
+﻿using MedicalAttach.Core.Abstractions;
+using MedicalAttach.Core.Models;
 using MedicalAttach.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
