@@ -26,10 +26,14 @@ namespace MedicalAttach.DataAccess.Configurations
                 .HasMaxLength(50)
                 .IsRequired();
 
-            builder.HasOne<Patient>()
-                .WithMany()
+            builder.HasOne(ar => ar.Patient)
+                .WithMany(p => p.AttachmentRequests)
                 .HasForeignKey(ar => ar.PatientId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne(ar => ar.MedicalOrganization)
+                .WithMany(mo => mo.AttachmentRequests)
+                .HasForeignKey(ar => ar.MedicalOrganizationId);
         }
     }
 }

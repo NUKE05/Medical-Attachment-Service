@@ -1,9 +1,4 @@
-﻿using MedicalAttach.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace MedicalAttach.DataAccess.Entities
 {
@@ -13,6 +8,10 @@ namespace MedicalAttach.DataAccess.Entities
         public DateTime CreationDate { get; set; }
         public DateTime ProcessingDate { get; set; }
         public required Guid PatientId { get; set; }
+        public required Guid MedicalOrganizationId { get; set; }
         public string Status { get; set; } = string.Empty;
+
+        public PatientEntity Patient { get; set; }
+        public MedicalOrganizationEntity MedicalOrganization { get; set; }
     }
 }

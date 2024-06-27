@@ -32,6 +32,12 @@ namespace MedicalAttach.DataAccess.Configurations
 
             builder.HasIndex(p => p.IIN)
                 .IsUnique();
+
+            builder.HasMany(p => p.AttachmentRequests)
+                .WithOne(ar => ar.Patient)
+                .HasForeignKey(ar => ar.PatientId)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
     }
 }

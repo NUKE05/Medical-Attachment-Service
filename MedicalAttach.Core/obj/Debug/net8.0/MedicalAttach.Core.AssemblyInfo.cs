@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedicalAttach.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1695c224602d35034ae19e0d5f9a3a7f48ced0a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c96f8bb379336f38cbeaa0b1889ca9a355738ee8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedicalAttach.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedicalAttach.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

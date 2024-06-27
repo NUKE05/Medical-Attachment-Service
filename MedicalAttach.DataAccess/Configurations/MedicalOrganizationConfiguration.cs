@@ -18,6 +18,11 @@ namespace MedicalAttach.DataAccess.Configurations
                 .WithOne(u => u.MedicalOrganization)
                 .HasForeignKey(u => u.MedicalOrganizationID)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasMany(mo => mo.AttachmentRequests)
+                .WithOne(ar => ar.MedicalOrganization)
+                .HasForeignKey(ar => ar.MedicalOrganizationId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

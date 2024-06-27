@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MedicalAttach.DataAccess.Migrations
 {
     [DbContext(typeof(MedicalAttachDbContext))]
-    [Migration("20240627071446_init")]
+    [Migration("20240627111704_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -25,17 +25,6 @@ namespace MedicalAttach.DataAccess.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("MedicalAttach.Core.Models.Patient", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Patient");
-                });
-
             modelBuilder.Entity("MedicalAttach.DataAccess.Entities.AttachmentRequestEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -44,6 +33,9 @@ namespace MedicalAttach.DataAccess.Migrations
 
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("MedicalOrganizationId")
+                        .HasColumnType("uuid");
 
                     b.Property<Guid>("PatientId")
                         .HasColumnType("uuid");
@@ -57,6 +49,8 @@ namespace MedicalAttach.DataAccess.Migrations
                         .HasColumnType("character varying(50)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("MedicalOrganizationId");
 
                     b.HasIndex("PatientId");
 
@@ -147,11 +141,21 @@ namespace MedicalAttach.DataAccess.Migrations
 
             modelBuilder.Entity("MedicalAttach.DataAccess.Entities.AttachmentRequestEntity", b =>
                 {
-                    b.HasOne("MedicalAttach.Core.Models.Patient", null)
-                        .WithMany()
+                    b.HasOne("MedicalAttach.DataAccess.Entities.MedicalOrganizationEntity", "MedicalOrganization")
+                        .WithMany("AttachmentRequests")
+                        .HasForeignKey("MedicalOrganizationId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MedicalAttach.DataAccess.Entities.PatientEntity", "Patient")
+                        .WithMany("AttachmentRequests")
                         .HasForeignKey("PatientId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.Navigation("MedicalOrganization");
+
+                    b.Navigation("Patient");
                 });
 
             modelBuilder.Entity("MedicalAttach.DataAccess.Entities.UserEntity", b =>
@@ -167,7 +171,14 @@ namespace MedicalAttach.DataAccess.Migrations
 
             modelBuilder.Entity("MedicalAttach.DataAccess.Entities.MedicalOrganizationEntity", b =>
                 {
+                    b.Navigation("AttachmentRequests");
+
                     b.Navigation("Users");
+                });
+
+            modelBuilder.Entity("MedicalAttach.DataAccess.Entities.PatientEntity", b =>
+                {
+                    b.Navigation("AttachmentRequests");
                 });
 #pragma warning restore 612, 618
         }

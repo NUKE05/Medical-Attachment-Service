@@ -24,17 +24,6 @@ namespace MedicalAttach.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Patient",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Patient", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Patients",
                 columns: table => new
                 {
@@ -78,18 +67,30 @@ namespace MedicalAttach.DataAccess.Migrations
                     CreationDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     ProcessingDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     PatientId = table.Column<Guid>(type: "uuid", nullable: false),
+                    MedicalOrganizationId = table.Column<Guid>(type: "uuid", nullable: false),
                     Status = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AttachmentRequests", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_AttachmentRequests_Patient_PatientId",
+                        name: "FK_AttachmentRequests_MedicalOrganizations_MedicalOrganization~",
+                        column: x => x.MedicalOrganizationId,
+                        principalTable: "MedicalOrganizations",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_AttachmentRequests_Patients_PatientId",
                         column: x => x.PatientId,
-                        principalTable: "Patient",
+                        principalTable: "Patients",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AttachmentRequests_MedicalOrganizationId",
+                table: "AttachmentRequests",
+                column: "MedicalOrganizationId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AttachmentRequests_PatientId",
@@ -121,13 +122,10 @@ namespace MedicalAttach.DataAccess.Migrations
                 name: "AttachmentRequests");
 
             migrationBuilder.DropTable(
-                name: "Patients");
-
-            migrationBuilder.DropTable(
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Patient");
+                name: "Patients");
 
             migrationBuilder.DropTable(
                 name: "MedicalOrganizations");

@@ -27,6 +27,7 @@ builder.Services.AddDbContext<MedicalAttachDbContext>(
 builder.Services.AddScoped<IPatientService, PatientService>();
 builder.Services.AddScoped<IMedicalOrganizationsService, MedicalOrganizationService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IAttachmentRequestService, AttachmentRequestService>();
 
 builder.Services.AddScoped<IAttachmentRequestsRepository, AttachmentRequestsRepository>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();

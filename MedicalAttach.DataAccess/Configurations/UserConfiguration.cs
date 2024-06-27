@@ -21,9 +21,9 @@ namespace MedicalAttach.DataAccess.Configurations
             builder.Property(u => u.IsAdmin)
                 .IsRequired();
 
-            builder.HasOne(u => u.MedicalOrganization)
-                .WithMany(mo => mo.Users)
-                .HasForeignKey(u => u.MedicalOrganizationID)
+            builder.HasOne(mo => mo.MedicalOrganization)
+                .WithMany(u => u.Users)
+                .HasForeignKey(mo => mo.MedicalOrganizationID)
                 .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasIndex(u => u.Login)
