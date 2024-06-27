@@ -14,5 +14,7 @@ namespace MedicalAttach.DataAccess.Entities
         public string Password { get; set; } = string.Empty;
         public bool IsAdmin { get; set; }
         public Guid MedicalOrganizationID { get; set; }
+
+        public MedicalOrganizationEntity MedicalOrganization { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using MedicalAttach.Core.Models;
 
-namespace MedicalAttachment.Application.Services
+namespace MedicalAttach.Core.Abstractions
 {
     public interface IMedicalOrganizationsService
     {

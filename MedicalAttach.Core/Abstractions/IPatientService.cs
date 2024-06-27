@@ -12,7 +12,7 @@ namespace MedicalAttach.Core.Abstractions
         Task<List<Patient>> GetAllPatients();
         Task<Guid> CreatePatient(Patient patient);
         Task<Guid> UpdatePatient(Guid id, string lastName, string firstName, string middleName, string iin);
-        Task <Guid> DeletePatient(Guid id);
+        Task<Guid> DeletePatient(Guid id);
         // dTask<List<Patient>> SearchPatients(string lastName, string firstName, string middleName, string iin);
     }
 }

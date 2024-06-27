@@ -1,6 +1,6 @@
 ﻿using MedicalAttach.Core.Models;
 
-namespace MedicalAttach.DataAccess.Repository
+namespace MedicalAttach.Core.Abstractions
 {
     public interface IAttachmentRequestsRepository
     {

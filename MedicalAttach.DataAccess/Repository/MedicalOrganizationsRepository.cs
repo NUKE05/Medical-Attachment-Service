@@ -1,4 +1,5 @@
-﻿using MedicalAttach.Core.Models;
+﻿using MedicalAttach.Core.Abstractions;
+using MedicalAttach.Core.Models;
 using MedicalAttach.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -28,6 +29,19 @@ namespace MedicalAttach.DataAccess.Repository
                 .ToList();
 
             return medicalOrganizations;
+        }
+
+        public async Task<Boolean> ContainsMedId(Guid id)
+        {
+            var medicalOrganizationEntities = await _context.MedicalOrganizations.AsNoTracking().ToListAsync();
+
+            var medicalOrganizations = medicalOrganizationEntities
+                .Select(m => new MedicalOrganization(m.Id, m.Name))
+                .ToList();
+
+            bool containsId = medicalOrganizations.Any(m => m.Id == id);
+
+            return containsId;
         }
 
         public async Task<Guid> Create(MedicalOrganization medicalOrganization)
